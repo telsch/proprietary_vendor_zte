@@ -413,12 +413,14 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib/libvendorutils.so:system/lib/libvendorutils.so \
     vendor/zte/axon7/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/zte/axon7/proprietary/lib/libztecfg.so:system/lib/libztecfg.so \
+    vendor/zte/axon7/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/zte/axon7/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/zte/axon7/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/zte/axon7/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zte/axon7/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zte/axon7/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/zte/axon7/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/zte/axon7/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/zte/axon7/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/zte/axon7/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/zte/axon7/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -658,10 +660,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
     vendor/zte/axon7/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/zte/axon7/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/zte/axon7/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/zte/axon7/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/zte/axon7/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/zte/axon7/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/zte/axon7/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
     vendor/zte/axon7/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
     vendor/zte/axon7/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so \
