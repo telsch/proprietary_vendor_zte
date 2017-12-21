@@ -386,7 +386,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/zte/axon7/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/zte/axon7/proprietary/etc/qcril_db_diff.xml:system/etc/qcril_db_diff.xml \
-    vendor/zte/axon7/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/zte/axon7/proprietary/etc/thermal-engine-8996-normal.conf:system/etc/thermal-engine-8996-normal.conf \
     vendor/zte/axon7/proprietary/etc/thermal-engine-8996-perf.conf:system/etc/thermal-engine-8996-perf.conf \
     vendor/zte/axon7/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
