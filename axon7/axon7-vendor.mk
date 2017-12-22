@@ -321,7 +321,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/zte/axon7/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/zte/axon7/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/zte/axon7/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/zte/axon7/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/zte/axon7/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/zte/axon7/proprietary/bin/lowi-server:system/bin/lowi-server \
