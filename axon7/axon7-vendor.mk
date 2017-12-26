@@ -422,7 +422,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/zte/axon7/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zte/axon7/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/zte/axon7/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/zte/axon7/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zte/axon7/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/zte/axon7/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
