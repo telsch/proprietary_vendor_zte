@@ -98,14 +98,14 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/zte/axon7/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/zte/axon7/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
-    vendor/zte/axon7/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
+    vendor/zte/axon7/proprietary/vendor/lib/hw/camera.msm8996.so:system/vendor/lib/hw/camera.msm8996.so \
     vendor/zte/axon7/proprietary/lib/hw/lights.msm8996.so:system/lib/hw/lights.msm8996.so \
     vendor/zte/axon7/proprietary/lib/hw/vr.default.so:system/lib/hw/vr.default.so \
-    vendor/zte/axon7/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/zte/axon7/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/zte/axon7/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/zte/axon7/proprietary/lib/libmorpho_refocus.so:system/lib/libmorpho_refocus.so \
-    vendor/zte/axon7/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libmorpho_refocus.so:system/vendor/lib/libmorpho_refocus.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/zte/axon7/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
     vendor/zte/axon7/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/zte/axon7/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
