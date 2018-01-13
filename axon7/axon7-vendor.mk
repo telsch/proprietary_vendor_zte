@@ -405,7 +405,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/zte/axon7/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/zte/axon7/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
-    vendor/zte/axon7/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zte/axon7/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zte/axon7/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/zte/axon7/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
