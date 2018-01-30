@@ -88,12 +88,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/etc/settings/stereo_qcom_spk.cnt:system/etc/settings/stereo_qcom_spk.cnt \
     vendor/zte/axon7/proprietary/etc/settings/stereo_qcom_spk_l.cnt:system/etc/settings/stereo_qcom_spk_l.cnt \
     vendor/zte/axon7/proprietary/etc/settings/stereo_qcom_spk_r.cnt:system/etc/settings/stereo_qcom_spk_r.cnt \
-    vendor/zte/axon7/proprietary/lib/hw/lights.msm8996.so:system/lib/hw/lights.msm8996.so \
     vendor/zte/axon7/proprietary/lib/hw/vr.default.so:system/lib/hw/vr.default.so \
     vendor/zte/axon7/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
     vendor/zte/axon7/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/zte/axon7/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
-    vendor/zte/axon7/proprietary/lib64/hw/lights.msm8996.so:system/lib64/hw/lights.msm8996.so \
     vendor/zte/axon7/proprietary/lib64/hw/vr.default.so:system/lib64/hw/vr.default.so \
     vendor/zte/axon7/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/zte/axon7/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
