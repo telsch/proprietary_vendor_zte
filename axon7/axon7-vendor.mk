@@ -386,7 +386,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/zte/axon7/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/zte/axon7/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
-    vendor/zte/axon7/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/zte/axon7/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/zte/axon7/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/zte/axon7/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
@@ -779,19 +778,39 @@ endif
 -include vendor/extra/devices.mk
 ifneq ($(call is-qc-perf-target),true)
 PRODUCT_COPY_FILES += \
-    vendor/zte/axon7/proprietary/vendor/bin/iop:system/vendor/bin/iop \
-    vendor/zte/axon7/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/zte/axon7/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
-    vendor/zte/axon7/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
-    vendor/zte/axon7/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
-    vendor/zte/axon7/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
-    vendor/zte/axon7/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
-    vendor/zte/axon7/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
-    vendor/zte/axon7/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
-    vendor/zte/axon7/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
-    vendor/zte/axon7/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
+    vendor/zte/axon7/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/zte/axon7/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/zte/axon7/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/zte/axon7/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
+    vendor/zte/axon7/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
+    vendor/zte/axon7/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service \
+    vendor/zte/axon7/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
+    vendor/zte/axon7/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
+    vendor/zte/axon7/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
+    vendor/zte/axon7/proprietary/vendor/etc/perf/perf-profile0.conf:system/vendor/etc/perf/perf-profile0.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/perf/perf-profile1.conf:system/vendor/etc/perf/perf-profile1.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/perf/perf-profile2.conf:system/vendor/etc/perf/perf-profile2.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/perf/perf-profile3.conf:system/vendor/etc/perf/perf-profile3.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/perf/perf-profile4.conf:system/vendor/etc/perf/perf-profile4.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/perf/perf-profile5.conf:system/vendor/etc/perf/perf-profile5.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/perf/perf-profile6.conf:system/vendor/etc/perf/perf-profile6.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
+    vendor/zte/axon7/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libqti-iopd.so:system/vendor/lib/libqti-iopd.so \
     vendor/zte/axon7/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/zte/axon7/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/zte/axon7/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
-    vendor/zte/axon7/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so
+    vendor/zte/axon7/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
+    vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libqti-iopd-client.so:system/vendor/lib64/libqti-iopd-client.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libqti-iopd.so:system/vendor/lib64/libqti-iopd.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
 endif
