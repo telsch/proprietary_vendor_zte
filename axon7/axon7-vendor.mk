@@ -370,7 +370,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/zte/axon7/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/zte/axon7/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
-    vendor/zte/axon7/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
     vendor/zte/axon7/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
