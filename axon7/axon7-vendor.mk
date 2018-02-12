@@ -480,7 +480,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/zte/axon7/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/zte/axon7/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/zte/axon7/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/zte/axon7/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/zte/axon7/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/zte/axon7/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -732,6 +731,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
@@ -767,7 +767,6 @@ PRODUCT_PACKAGES += \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
-    libtime_genoff \
     libloc_api_v02 \
     QtiTelephonyService \
     SimSettings \
