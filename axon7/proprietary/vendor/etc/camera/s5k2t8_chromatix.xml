@@ -56,6 +56,9 @@ A3Video :
     <ChromatixName special_mode_mask = "ZOOM_DOWNSCALE">
       <CPPSnapshot>s5k2t8_cpp_snapshot_downscale</CPPSnapshot>
     </ChromatixName>
+    <ChromatixName special_mode_mask = "ZTE_CPP">
+      <CPPSnapshot>s5k2t8_cpp_snapshot_night</CPPSnapshot>
+    </ChromatixName>
   </CommonChromatixInfo>
   <!--
  full size
