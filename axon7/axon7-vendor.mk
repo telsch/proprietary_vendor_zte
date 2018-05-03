@@ -39,12 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib/hw/vr.default.so:system/lib/hw/vr.default.so \
     vendor/zte/axon7/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
     vendor/zte/axon7/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
-    vendor/zte/axon7/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
-    vendor/zte/axon7/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/zte/axon7/proprietary/lib64/hw/vr.default.so:system/lib64/hw/vr.default.so \
-    vendor/zte/axon7/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
-    vendor/zte/axon7/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
-    vendor/zte/axon7/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/zte/axon7/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
     vendor/zte/axon7/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/zte/axon7/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
@@ -607,7 +602,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/zte/axon7/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/zte/axon7/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:system/vendor/lib64/hw/activity_recognition.msm8996.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:system/vendor/lib64/hw/fingerprint.msm8996.so \
     vendor/zte/axon7/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/hw/gxfingerprint.default.so:system/vendor/lib64/hw/gxfingerprint.default.so \
     vendor/zte/axon7/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
     vendor/zte/axon7/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8996.so:system/vendor/lib64/hw/sound_trigger.primary.msm8996.so \
     vendor/zte/axon7/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
@@ -677,6 +674,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libfp_client.so:system/vendor/lib64/libfp_client.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libfpnav.so:system/vendor/lib64/libfpnav.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libfpservice.so:system/vendor/lib64/libfpservice.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
