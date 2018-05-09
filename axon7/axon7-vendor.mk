@@ -333,9 +333,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/zte/axon7/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/zte/axon7/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/zte/axon7/proprietary/etc/thermal-engine-8996-normal.conf:system/etc/thermal-engine-8996-normal.conf \
-    vendor/zte/axon7/proprietary/etc/thermal-engine-8996-perf.conf:system/etc/thermal-engine-8996-perf.conf \
-    vendor/zte/axon7/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/zte/axon7/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/zte/axon7/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zte/axon7/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
@@ -447,6 +444,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/zte/axon7/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/zte/axon7/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
     vendor/zte/axon7/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/zte/axon7/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/zte/axon7/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
