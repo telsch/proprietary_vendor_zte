@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
     vendor/zte/axon7/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
     vendor/zte/axon7/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
-    vendor/zte/axon7/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zte/axon7/proprietary/etc/settings/mono_qcom_rcv.cnt:system/etc/settings/mono_qcom_rcv.cnt \
     vendor/zte/axon7/proprietary/etc/settings/mono_qcom_spk_l.cnt:system/etc/settings/mono_qcom_spk_l.cnt \
     vendor/zte/axon7/proprietary/etc/settings/mono_qcom_spk_r.cnt:system/etc/settings/mono_qcom_spk_r.cnt \
@@ -447,6 +446,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/zte/axon7/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/zte/axon7/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zte/axon7/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/zte/axon7/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/zte/axon7/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
