@@ -377,6 +377,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/zte/axon7/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
     vendor/zte/axon7/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
+    vendor/zte/axon7/proprietary/lib64/libvendorcfg.so:system/lib64/libvendorcfg.so \
     vendor/zte/axon7/proprietary/lib64/libvendorutils.so:system/lib64/libvendorutils.so \
     vendor/zte/axon7/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/zte/axon7/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
