@@ -394,7 +394,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/zte/axon7/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/zte/axon7/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
-    vendor/zte/axon7/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/zte/axon7/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/zte/axon7/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/zte/axon7/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
