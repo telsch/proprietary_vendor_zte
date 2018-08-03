@@ -73,6 +73,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/etc/camera/camera_config.xml:system/vendor/etc/camera/camera_config.xml \
     vendor/zte/axon7/proprietary/vendor/etc/camera/ov8856_chromatix.xml:system/vendor/etc/camera/ov8856_chromatix.xml \
     vendor/zte/axon7/proprietary/vendor/etc/camera/s5k2t8_chromatix.xml:system/vendor/etc/camera/s5k2t8_chromatix.xml \
+    vendor/zte/axon7/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:system/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc \
+    vendor/zte/axon7/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:system/vendor/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/zte/axon7/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zte/axon7/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
     vendor/zte/axon7/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
