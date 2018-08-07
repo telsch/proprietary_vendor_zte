@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/etc/tfa/stereo_qc_spk_r.cnt:system/vendor/etc/tfa/stereo_qc_spk_r.cnt \
     vendor/zte/axon7/proprietary/lib/hw/vr.default.so:system/lib/hw/vr.default.so \
     vendor/zte/axon7/proprietary/vendor/lib/libtfa9890.so:system/vendor/lib/libtfa9890.so \
-    vendor/zte/axon7/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/zte/axon7/proprietary/lib64/hw/vr.default.so:system/lib64/hw/vr.default.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libtfa9890.so:system/vendor/lib64/libtfa9890.so \
     vendor/zte/axon7/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
@@ -360,7 +360,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/zte/axon7/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/zte/axon7/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/zte/axon7/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libqmi_cci_system.so:system/vendor/lib/libqmi_cci_system.so \
     vendor/zte/axon7/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/zte/axon7/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
     vendor/zte/axon7/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
@@ -380,13 +380,11 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/zte/axon7/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/zte/axon7/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
-    vendor/zte/axon7/proprietary/lib64/libmodemapi.so:system/lib64/libmodemapi.so \
-    vendor/zte/axon7/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libqmi_cci_system.so:system/vendor/lib64/libqmi_cci_system.so \
     vendor/zte/axon7/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/zte/axon7/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
     vendor/zte/axon7/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
-    vendor/zte/axon7/proprietary/lib64/libvendorcfg.so:system/lib64/libvendorcfg.so \
-    vendor/zte/axon7/proprietary/lib64/libvendorutils.so:system/lib64/libvendorutils.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libvendorcfg.so:system/vendor/lib64/libvendorcfg.so \
     vendor/zte/axon7/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/zte/axon7/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/zte/axon7/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
