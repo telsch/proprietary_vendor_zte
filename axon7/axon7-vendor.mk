@@ -48,17 +48,17 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/firmware/ak4961_pram_sound_record.bin:system/vendor/firmware/ak4961_pram_sound_record.bin \
     vendor/zte/axon7/proprietary/vendor/firmware/ak4961_pram_voice_recognition.bin:system/vendor/firmware/ak4961_pram_voice_recognition.bin \
     vendor/zte/axon7/proprietary/vendor/firmware/ak4961_pram_wide.bin:system/vendor/firmware/ak4961_pram_wide.bin \
-    vendor/zte/axon7/proprietary/etc/settings/mono_qcom_rcv.cnt:system/etc/settings/mono_qcom_rcv.cnt \
-    vendor/zte/axon7/proprietary/etc/settings/mono_qcom_spk_l.cnt:system/etc/settings/mono_qcom_spk_l.cnt \
-    vendor/zte/axon7/proprietary/etc/settings/mono_qcom_spk_r.cnt:system/etc/settings/mono_qcom_spk_r.cnt \
-    vendor/zte/axon7/proprietary/etc/settings/stereo_qcom_spk.cnt:system/etc/settings/stereo_qcom_spk.cnt \
-    vendor/zte/axon7/proprietary/etc/settings/stereo_qcom_spk_l.cnt:system/etc/settings/stereo_qcom_spk_l.cnt \
-    vendor/zte/axon7/proprietary/etc/settings/stereo_qcom_spk_r.cnt:system/etc/settings/stereo_qcom_spk_r.cnt \
+    vendor/zte/axon7/proprietary/vendor/etc/tfa/mono_qc_rcv.cnt:system/vendor/etc/tfa/mono_qc_rcv.cnt \
+    vendor/zte/axon7/proprietary/vendor/etc/tfa/mono_qc_spk_l.cnt:system/vendor/etc/tfa/mono_qc_spk_l.cnt \
+    vendor/zte/axon7/proprietary/vendor/etc/tfa/mono_qc_spk_r.cnt:system/vendor/etc/tfa/mono_qc_spk_r.cnt \
+    vendor/zte/axon7/proprietary/vendor/etc/tfa/stereo_qc_spk.cnt:system/vendor/etc/tfa/stereo_qc_spk.cnt \
+    vendor/zte/axon7/proprietary/vendor/etc/tfa/stereo_qc_spk_l.cnt:system/vendor/etc/tfa/stereo_qc_spk_l.cnt \
+    vendor/zte/axon7/proprietary/vendor/etc/tfa/stereo_qc_spk_r.cnt:system/vendor/etc/tfa/stereo_qc_spk_r.cnt \
     vendor/zte/axon7/proprietary/lib/hw/vr.default.so:system/lib/hw/vr.default.so \
-    vendor/zte/axon7/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
+    vendor/zte/axon7/proprietary/vendor/lib/libtfa9890.so:system/vendor/lib/libtfa9890.so \
     vendor/zte/axon7/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/zte/axon7/proprietary/lib64/hw/vr.default.so:system/lib64/hw/vr.default.so \
-    vendor/zte/axon7/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libtfa9890.so:system/vendor/lib64/libtfa9890.so \
     vendor/zte/axon7/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/zte/axon7/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/zte/axon7/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
