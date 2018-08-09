@@ -341,9 +341,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/zte/axon7/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/zte/axon7/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/zte/axon7/proprietary/etc/thermal-engine-8996-normal.conf:system/etc/thermal-engine-8996-normal.conf \
-    vendor/zte/axon7/proprietary/etc/thermal-engine-8996-perf.conf:system/etc/thermal-engine-8996-perf.conf \
-    vendor/zte/axon7/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/zte/axon7/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/zte/axon7/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zte/axon7/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
