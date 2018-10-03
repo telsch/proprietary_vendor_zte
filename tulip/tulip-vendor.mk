@@ -141,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tulip/proprietary/vendor/lib64/hw/fingerprint.goodix.so:system/vendor/lib64/hw/fingerprint.goodix.so \
     vendor/zte/tulip/proprietary/vendor/lib64/hw/gps.default.so:system/vendor/lib64/hw/gps.default.so \
     vendor/zte/tulip/proprietary/vendor/lib64/hw/gxfingerprint.default.so:system/vendor/lib64/hw/gxfingerprint.default.so \
-    vendor/zte/tulip/proprietary/vendor/lib64/hw/sensors.msm8952.so:system/vendor/lib64/hw/sensors.msm8952.so \
     vendor/zte/tulip/proprietary/vendor/lib64/libfp_client.so:system/vendor/lib64/libfp_client.so \
     vendor/zte/tulip/proprietary/vendor/lib64/libfpnav.so:system/vendor/lib64/libfpnav.so \
     vendor/zte/tulip/proprietary/vendor/lib64/libfpservice.so:system/vendor/lib64/libfpservice.so \
