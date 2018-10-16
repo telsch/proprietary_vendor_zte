@@ -120,6 +120,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/jasmine/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/zte/jasmine/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zte/jasmine/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/zte/jasmine/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
+    vendor/zte/jasmine/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
     vendor/zte/jasmine/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/zte/jasmine/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/zte/jasmine/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
