@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/zte/tulip/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/zte/tulip/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/zte/tulip/proprietary/vendor/bin/bt_mac_writer:system/vendor/bin/bt_mac_writer \
     vendor/zte/tulip/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/zte/tulip/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/zte/tulip/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
