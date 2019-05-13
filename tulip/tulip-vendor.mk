@@ -141,7 +141,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tulip/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/zte/tulip/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/zte/tulip/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
-    vendor/zte/tulip/proprietary/vendor/lib64/hw/nfc_nci.pn54x.default.so:system/vendor/lib64/hw/nfc_nci.pn54x.default.so \
+    vendor/zte/tulip/proprietary/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so:system/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so \
+    vendor/zte/tulip/proprietary/vendor/lib64/hw/nfc_nci.msm8952.so:system/vendor/lib64/hw/nfc_nci.msm8952.so
     vendor/zte/tulip/proprietary/vendor/lib64/hw/fingerprint.goodix.so:system/vendor/lib64/hw/fingerprint.goodix.so \
     vendor/zte/tulip/proprietary/vendor/lib64/hw/gps.default.so:system/vendor/lib64/hw/gps.default.so \
     vendor/zte/tulip/proprietary/vendor/lib64/hw/gxfingerprint.default.so:system/vendor/lib64/hw/gxfingerprint.default.so \
