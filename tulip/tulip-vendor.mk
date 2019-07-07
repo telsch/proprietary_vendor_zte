@@ -137,12 +137,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tulip/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zte/tulip/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/zte/tulip/proprietary/vendor/lib/hw/camera.vendor.msm8952.so:system/vendor/lib/hw/camera.vendor.msm8952.so \
-    vendor/zte/tulip/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
-    vendor/zte/tulip/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
-    vendor/zte/tulip/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
-    vendor/zte/tulip/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/zte/tulip/proprietary/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so:system/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so \
-    vendor/zte/tulip/proprietary/vendor/lib64/hw/nfc_nci.msm8952.so:system/vendor/lib64/hw/nfc_nci.msm8952.so
+    vendor/zte/tulip/proprietary/vendor/lib64/hw/nfc_nci.msm8952.so:system/vendor/lib64/hw/nfc_nci.msm8952.so \
     vendor/zte/tulip/proprietary/vendor/lib64/hw/fingerprint.goodix.so:system/vendor/lib64/hw/fingerprint.goodix.so \
     vendor/zte/tulip/proprietary/vendor/lib64/hw/gps.default.so:system/vendor/lib64/hw/gps.default.so \
     vendor/zte/tulip/proprietary/vendor/lib64/hw/gxfingerprint.default.so:system/vendor/lib64/hw/gxfingerprint.default.so \
@@ -490,7 +486,11 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tulip/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/zte/tulip/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/zte/tulip/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/zte/tulip/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/zte/tulip/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/zte/tulip/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/zte/tulip/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/zte/tulip/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/zte/tulip/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so
 
 PRODUCT_PACKAGES += \
     libtfa9890 \
