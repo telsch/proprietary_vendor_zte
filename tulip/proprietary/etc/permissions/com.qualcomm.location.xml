@@ -10,6 +10,10 @@
 
 <permissions>
 
+<privapp-permissions package="com.qualcomm.location">
+    <permission name="android.permission.CONTROL_LOCATION_UPDATES"/>
+</privapp-permissions>
+
 <permission name="com.qualcomm.permission.IZAT" >
     <group gid="gps" />
     <group gid="net_raw" />
